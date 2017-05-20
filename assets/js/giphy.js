@@ -97,12 +97,12 @@ function giphySearch (searchID) {
       	var stilled = $(this).attr("data-still");
      
         if (currentState == 'still') {
-          $(this).attr("data-state","animate");
-          $(this).attr("src",animated);
+            $(this).attr("data-state","animate");
+            $(this).attr("src",animated);
         }
         else {
-          $(this).attr("data-state","still");
-          $(this).attr("src",stilled);
+            $(this).attr("data-state","still");
+            $(this).attr("src",stilled);
         }
 });
 
